@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'codec-pro.regular';
+    src: url('codec-pro.regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'CodecPro-Heavy';
+    src: url('CodecPro-Heavy.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CodecPro-ExtraBold';
+    src: url('CodecPro-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CodecPro-Ultra';
+    src: url('CodecPro-Ultra.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}

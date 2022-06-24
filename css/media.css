@@ -1,0 +1,487 @@
+@media (min-width: 1500px) and (max-width: 3000px) {
+	.popup_4::after {
+        width: 60%;
+    }
+}
+@media (max-width: 1060px) {
+	.vesting_schedule .graph {
+        height: auto;
+        padding: 0;
+    }
+    .graph__left {
+        margin: 0;
+    }
+    .vesting_schedule .graph__left .text {
+        margin-right: 0;
+    }
+    .timer_container {
+        padding-left: 5px;
+    }
+    .namber_t,
+    .dotet {
+        font-size: 90px;
+    }
+}
+@media (max-width: 980px) {
+    .over_title,
+    .popup_title,
+    .sun_liquidity_subtitle {
+        font-size: 37px;
+        line-height: 42px;
+    }
+    .sun_tokenomics_info_item:nth-child(1) {
+        margin: 367px 15px 0px;
+    }
+    .sun_tokenomics_info_item:nth-child(3) {
+        right: 0;
+    }
+    .sun_liquidity_row,
+    .popup_timer_row {
+        display: block;
+    }
+    .sun_liquidity_subtitle,
+    .sun_liquidity_info {
+        max-width: none;
+    }
+    .timer_container {
+        background: #fff;
+        border-radius: 0 0 40px 40px;
+        max-width: none;
+        width: auto;
+        margin: 0 -15px 21px;
+        padding: 90px 30px 33px;
+    }
+    .popup_4::after {
+        display: none;
+    }
+}
+@media (max-width: 680px) {
+    .sun_tokenomics_info_item {
+        width: 140px;
+        text-align: center;
+        padding: 0;
+    }
+    .sun_tokenomics_info_item p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        transform: none;
+        position: static;
+    }
+    .sun_tokenomics_info_item strong {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .sun_tokenomics_info_item:nth-child(3) {
+        margin-top: calc(30px + (231 - 115) * ((100vw - 370px) / (1440 - 370)));
+        right: 15px;
+    }
+    .sun_tokenomics_info_item:nth-child(1) {
+        margin-top: calc(115px + (678 - 115) * ((100vw - 370px) / (1440 - 370)));
+        margin-left: 0;
+        left: 15px;
+    }
+    .graph__left,
+    .graph__right,
+    .graph_bottom .text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .graph__left .text:first-child {
+        margin-bottom: 20px;
+    }
+    .graph__block {
+        margin-top: 28px;
+    }
+    .graph__right .text:first-child {
+        margin-top: 57px;
+    }
+    .line-h,
+    .line-h:first-child {
+        height: 43px;
+        margin: 0;
+    }
+    .graph_bottom {
+        margin: 18px 0 0 0;
+        padding-left: 18px;
+    }
+    .sun_liquidity_list_item {
+        width: 375px;
+        padding: 0 0 32px;
+    }
+    .sun_liquidity_list_content,
+    .sun_liquidity_list_item+.sun_liquidity_list_item .sun_liquidity_list_content {
+        border-radius: 40px;
+        padding: 38px 10px 35px 44px;
+    }
+    .sun_liquidity_list_content_title {
+        width: 191px;
+        font-size: 37px;
+        line-height: 40px;
+        margin-bottom: 35px;
+    }
+    .sun_liquidity_list_content_text {
+        width: 180px;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    .sun_liquidity_list_content_btn {
+        width: 90px;
+        height: 42px;
+        font-size: 15px;
+    }
+    .sun_liquidity_list_content_img {
+        right: 5px !important;
+        bottom: -10px !important;
+    }
+    .sun_liquidity_list_content_img img {
+        width: 200px;
+    }
+    .sun_liquidity_list_item+.sun_liquidity_list_item .sun_liquidity_list_content_title {
+        width: 235px;
+    }
+    .sun_liquidity_list_item+.sun_liquidity_list_item .sun_liquidity_list_content_text {
+        width: 223px;
+    }
+    .timer_container_subtitle,
+    .popup_text {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 22px;
+    }
+    .popup_list {
+        padding-bottom: 50px;
+        display: block;
+    }
+    .popup_list li {
+        margin-bottom: 137px;
+        flex-direction: initial;
+        align-items: center !important;
+    }
+    .popup_list li:last-of-type {
+        margin-bottom: 0;
+    }
+    .popup_namber {
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 0;
+    }
+    .popup_list li p {
+        padding-left: 27px;
+    }
+    .popup_list li::before {
+        width: 6px;
+        height: 140px;
+        left: 28px;
+        top: 60px;
+    }
+    .popup_list li:first-child::after {
+        width: 6px;
+        height: 70px;
+        left: 28px;
+        top: 60px;
+    }
+    .popup_list li:last-child::before {
+        height: 6px;
+    }
+    .popup_1 .popup_title {
+        margin-bottom: 35px;
+    }
+    .popup_1 .btn_yellow {
+        max-width: 238px;
+    }
+    .counter_wrap {
+        max-width: 320px;
+    }
+    .namber_t,
+    .dotet {
+        font-size: 62px;
+        line-height: 80px;
+    }
+    .timer_title {
+        font-size: 15px;
+        line-height: 21px;
+    }
+}
+@media (max-width: 375px) {
+    .header {
+        padding: 30px 15px 42px;
+    }  
+    .logo {
+        width: 122px;
+    } 
+    .logo img,
+    .social img {
+        width: 100%;
+        height: auto;
+    }
+    .social {
+        width: 57px;
+    }
+    .social a {
+        width: 20px;
+        display: block;
+    }
+    .hero {
+        background-size: 100%;
+        margin: 0 -25px;
+        padding-bottom: 0;
+    }
+    .hero .container {
+        padding: 0 40px;
+    }
+    .hero_title {
+        margin-bottom: 22px;
+    }
+    .hero_subtitle {
+        max-width: 268px;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 23px;
+    }
+    .hero_text {
+        max-width: 314px;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 227px;
+    }
+    .hero .btn_yellow {
+        margin: 0 auto;
+        display: block;
+    }
+    .btn_yellow {
+        border-radius: 24px;
+        max-width: 240px;
+        font-size: 18px;
+        padding: 31px 5px;
+    }
+    .and {
+        padding: 96px 15px 40px;
+    }
+    .and_title {
+        margin-bottom: 32px;
+    }
+    .and_subtitle {
+        max-width: 335px;
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 auto 34px;
+    }
+    .and .btn_yellow {
+        max-width: 210px;
+    }
+    .sun_tokenomics {
+        text-align: center;
+        padding: 60px 15px 0;
+    }
+    .sun_tokenomics_title {
+        margin-bottom: 20px;
+    }
+    .sun_tokenomics_text {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .sun_tokenomics_subtitle {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 145px;
+    }
+    .sun_tokenomics_info img {
+        max-width: none;
+        width: 477px;
+        height: 583px;
+        margin: -60px -25px 0 -36px;
+    }
+    .sun_tokenomics_info_item:nth-child(1) {
+        margin-top: 178px;
+    }
+    .sun_tokenomics_info_item:nth-child(3) {
+        width: 117px;
+        margin-top: 88px;
+    }
+    .vesting_schedule {
+        padding: 14px 15px 42px;
+    }
+    .vesting_shedule_title {
+        text-align: left;
+        margin-bottom: 55px;
+    }
+    .vesting_shedule_text {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+    }
+    .graph__left,
+    .graph__right,
+    .graph_bottom .text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .graph__left,
+    .graph__right {
+        width: auto;
+    }
+    .graph__block {
+        background-position: calc(100% - 16px) 42px;
+        margin-top: 20px;
+    }
+    .graph__left .text {
+        margin-bottom: 27px;
+    }
+    .sun_liquidity {
+        padding: 75px 15px 94px;
+    }
+    .sun_liquidity_title {
+        margin-bottom: 27px;
+    }
+    .sun_liquidity_text {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 28px;
+    }
+    .sun_liquidity_list {
+        padding-bottom: 65px;
+    }
+    .sun_liquidity_row {
+        border: none;
+        padding-top: 0;
+    }
+    .sun_liquidity_subtitle {
+        font-size: 37px;
+        line-height: 42px;
+        margin-bottom: 37px;
+        padding-right: 0;
+    }
+    .sun_liquidity_info_text {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .sun_liquidity_info .btn_yellow {
+        max-width: 200px;
+    }
+    .watch {
+        padding: 89px 0px 20px;
+    }
+    .watch_subtitle {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 36px;
+        padding: 0;
+    }
+    .watch_title {
+        max-width: 290px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    .watch_video_wrap {
+        height: 635px;
+        padding-top: 94px;
+    }
+    .watch_video_wrap::before {
+        background: url(../img/watch-video-mob.png) no-repeat center top;
+    }
+    .watch_video {
+        border-radius: 40px;
+        height: 337px;
+    }
+    .project_backers {
+        padding: 10px 0 107px;
+    }
+    .project_backers_title {
+        margin-bottom: 55px;
+    }
+    .project_backers_img {
+        margin: 0 -65px;
+        position: static;
+    }
+    .terra_sun {
+        background: url(../img/terra-sun-mob.png) no-repeat center bottom;
+        padding: 0;
+    }
+    .terra_sun_content {
+        padding-bottom: 201px;
+    }
+    .terra_sun_title {
+        margin-bottom: 45px;
+    }
+    .terra_sun_text {
+        max-width: 280px;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 72px;
+    }
+    .footer {
+        margin: 0 -15px;
+        padding: 29px 15px;
+    }
+    .graph__right .text:last-child {
+        position: relative;
+        bottom: -13px;
+    }
+    .counter_wrap {
+        margin-bottom: 30px;
+        display: block;
+    }
+    .timer_title {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .popup_3 .btn_yellow, .timer_container .btn_yellow {
+        max-width: 146px;
+    }
+    .tokens_text {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .popup_timer_list li {
+        margin-bottom: 15px;
+    }
+    .popup_timer_list p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .popup_timer_list strong {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .popup_2 .popup_title, .popup_3 .popup_title {
+        margin-bottom: 25px;
+    }
+    .popup_2, .popup_3 {
+        border-radius: 40px;
+        padding: 40px 30px;
+    }
+    .popup_subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 54px;
+    }
+    .popup_5 {
+        border-radius: 40px;
+        padding: 105px 40px 30px;
+    }
+    .close_popup {
+        background-size: cover;
+        width: 37px;
+        height: 37px;
+        top: 20px;
+        right: 20px;
+    }
+    .timer_container {
+        padding: 90px 15px 33px;
+    }
+    .namber_t,
+    .dotet {
+        font-size: 45px;
+        line-height: 80px;
+    }
+}
+@media (max-width: 360px) {
+    .over_title {
+        font-size: 32px;
+    }
+}
